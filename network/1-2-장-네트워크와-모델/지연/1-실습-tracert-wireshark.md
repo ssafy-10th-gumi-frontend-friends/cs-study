@@ -26,15 +26,15 @@ Wireshark란?
 ![와이어샤크](./images/image.png)
 
 - http만 검색했을 때
-![Alt text](image-1.png)
+![Alt text](./images/image-1.png)
 
 
 
 ## 3. 프로토콜 직접 확인해보기
 - 네이버, 다나와, 교보문고 등을 검색했을때 응답
 - 200 OK (text/html)
-![Alt text](image-3.png)
-![Alt text](image-4.png)
+![Alt text](./images/image-3.png)
+![Alt text](./images/image-4.png)
 
 - HTTP -> TCP(크롬) -> IPv4 (먼 곳) -> Ethernet (가까운 곳)
 
