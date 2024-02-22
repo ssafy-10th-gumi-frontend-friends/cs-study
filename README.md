@@ -10,7 +10,7 @@ CS 지식 공유의 장
 ### 🌞 멤버
 |[![dreamingbeom](https://avatars.githubusercontent.com/u/128280944?v=4)](https://github.com/dreamingbeom)|[![rigoood](https://avatars.githubusercontent.com/u/132658372?v=4)](https://github.com/rigoood)|[![seunghwan99](https://avatars.githubusercontent.com/u/139419039?v=4)](https://github.com/seunghwan99)|[![jiyeon2536](https://avatars.githubusercontent.com/u/125720796?v=4)](https://github.com/jiyeon2536)|
 |:-:|:-:|:-:|:-:|
-|[드리밍범](https://github.com/dreamingbeom)|[규글](https://github.com/rigoood)|[승한](https://github.com/Lim-seunghwan99)|[참새](https://github.com/jiyeon2536)|
+|[궁쌤](https://github.com/dreamingbeom)|[규글](https://github.com/rigoood)|[승한](https://github.com/Lim-seunghwan99)|[참새](https://github.com/jiyeon2536)|
 
 ### 🌞 커리큘럼
 ### 네트워크 
