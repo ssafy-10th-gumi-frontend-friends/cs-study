@@ -20,7 +20,7 @@ CS 지식 공유의 장
 | ------ | ------ | ------ | ------ | ------ |
 | | | | [강의 개요](네트워크) | 권장 학습기간: `2주`, 학습분량: 주당 `7.5시간`|
 |1| :white_large_square: |1| 1, 2장 네트워크와 모델 | 지연✅ 규리✅ |
-|1| :white_large_square: |1| 3장 데이터 통신 | |
+|1| :white_large_square: |1| 3장 데이터 통신 | 지연✅ |
 |1| :white_large_square: |2| 4장 IP 주소 | |
 |1| :white_large_square: |1| 5장 ARP 프로토콜 | |
 |1| :white_large_square: |2| 6장 IPv4, ICMP 프로토콜 | |
