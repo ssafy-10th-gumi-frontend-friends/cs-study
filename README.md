@@ -8,9 +8,9 @@ CS 지식 공유의 장
 4. 매일 1 챕터씩 공부한다. 채우지 못한 부분은 데드라인에 맞추어 개별적으로 완료한다.
 
 ### 🌞 멤버
-|[![dreamingbeom](https://avatars.githubusercontent.com/u/128280944?v=4)](https://github.com/dreamingbeom)|[![rigoood](https://avatars.githubusercontent.com/u/132658372?v=4)](https://github.com/rigoood)|[![seunghwan99](https://avatars.githubusercontent.com/u/139419039?v=4)](https://github.com/seunghwan99)|[![jiyeon2536](https://avatars.githubusercontent.com/u/125720796?v=4)](https://github.com/jiyeon2536)|
+|[![dreamingbeom](https://avatars.githubusercontent.com/u/128280944?v=4)](https://github.com/dreamingbeom)|[![PARK9YUR1](https://avatars.githubusercontent.com/u/132658372?v=4)](https://github.com/PARK9YUR1)|[![seunghwan99](https://avatars.githubusercontent.com/u/139419039?v=4)](https://github.com/seunghwan99)|[![jiyeon2536](https://avatars.githubusercontent.com/u/125720796?v=4)](https://github.com/jiyeon2536)|
 |:-:|:-:|:-:|:-:|
-|[경범](https://github.com/dreamingbeom)|[규리](https://github.com/rigoood)|[승환](https://github.com/Lim-seunghwan99)|[지연](https://github.com/jiyeon2536)|
+|[경범](https://github.com/dreamingbeom)|[규리](https://github.com/PARK9YUR1)|[승환](https://github.com/Lim-seunghwan99)|[지연](https://github.com/jiyeon2536)|
 
 ### 🌞 커리큘럼
 ### 1️⃣ 네트워크 
