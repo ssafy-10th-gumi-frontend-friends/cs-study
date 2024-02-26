@@ -29,14 +29,14 @@
 
 ## 일반적인 IP 주소 (IPv4)
 ### Classful IP주소
-![Alt text](image-1.png)
+![Alt text](./images/image-1.png)
 - 10진수로 써서 0~255 까지 쓸수있음.
 - 낭비가 심하다. -> IP주소가 부족해짐
 - 클래스가 어떻게 구분되는지 알 필요는 없을듯
-![Alt text](image-2.png)
+![Alt text](./images/image-2.png)
 
 ### Classless IP 주소
-![Alt text](image-3.png)  
+![Alt text](./images/image-3.png)  
 클래스풀 ip로 했을 때 ip주소가 부족해져서 보완책  
 
 굳이 . 이 찍힌 구분이 아니라 자르고 싶은 구간 아무데에서든 잘라서 쓰기
@@ -60,7 +60,7 @@
 -> 사설 IP들이 다른 네트워크 대역으로 갈 때 공인 IP로 변경해서 간다. 
 
 ex) 내 아이피 주소 검색하면 하나만 나오는데, (공유기에 할당된 ip)  
-![Alt text](image-4.png)
+![Alt text](./images/image-4.png)
 내 로컬에서 ip config를 보면 다 다르게 나온다. 
   
 - NAT : 공인 IP로 받아온 정보를 사설 IP에 뿌려주는 과정. IP 부족 문제를 해결하기 위함.
@@ -76,14 +76,14 @@ ex) 내 아이피 주소 검색하면 하나만 나오는데, (공유기에 할�
 
 3. 게이트웨이 주소 : 어딘가로 가려면 일단 여기로. 문짝!
   
-![Alt text](image-6.png)  
+![Alt text](./images/image-6.png)  
 
 
 ---
 ## 실습
 1. 내 PC의 IP 주소 확인하기
 cmd - ipconfig  
-![Alt text](image-7.png)
+![Alt text](./images/image-7.png)
 
 2. 네이버에서 공인 IP 주소 확인  
-![Alt text](image-8.png)  
+![Alt text](./images/image-8.png)  
