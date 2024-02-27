@@ -5,7 +5,7 @@
 
 - 같은 네트워크 대역에서 통신을 하더라도, 데이터를 보내기 위해서는 7계층부터 캡슐화를 통해 데이터를 보내기 때문에 IP주소와 MAC주소가 모두 필요하다. 이때 IP주소는 알고 MAC주소는 모르더라도 ARP를 통해 통신이 가능하다.
 
-![Alt text](image.png)  
+![Alt text](./images/image.png)  
 
 - Hardware type : 0001 - 이더넷
 - Protocol type : 0800 - IPv4
@@ -19,26 +19,26 @@
 ## ARP 프로토콜의 통신과정
 A 컴퓨터가 C컴퓨터에게 ARP를 요청할때
 
-![Alt text](image-1.png)  
+![Alt text](./images/image-1.png)  
 이더넷  
-![Alt text](image-2.png)  
+![Alt text](./images/image-2.png)  
 같은 네트워크대역의 모든 아이들에게 보내줌  
-![Alt text](image-3.png)  
+![Alt text](./images/image-3.png)  
 2계층까지만 디캡슐레이션 함
-![Alt text](image-4.png)  
+![Alt text](./images/image-4.png)  
 같은 내역을 받은 모든 컴퓨터에게 보냄 -- 목적지 IP 주소가 자기와 같은 컴퓨터만 응답을 보냄  
-![Alt text](image-5.png)  
+![Alt text](./images/image-5.png)  
 출발지 IP 주소에 자기의 MAC주소를 써서 보내줌.  
 
 전달해줌    
-![Alt text](image-6.png)  
+![Alt text](./images/image-6.png)  
 ARP 캐시 테이블  
-![Alt text](image-7.png)  
+![Alt text](./images/image-7.png)  
 
 ## ARP 캐시 테이블
 > 나와 통신했던 컴퓨터들
 
-![Alt text](image-8.png)  
+![Alt text](./images/image-8.png)  
 통신했던 컴퓨터들의 주소는 ARP 테이블에 남는다.
 
 - 캐시테이블 - 일정 시간이 지나면 삭제됨 
@@ -46,6 +46,19 @@ ARP 캐시 테이블
 ---
 
 ## 실습
-1. ARP 테이블 확인
+1. ARP 캐시 테이블 확인  
+- `cmd` 들어가서 `arp -a` 입력  
+![Alt text](./images/image-9.png) 
+ - 3계층. 같은 네트워크 대역 안에서만 쓰인다. 
 
 2.  ARP 프로토콜 분석하기
+- wireshark 들어가서 `arp` 검색
+![](./images/image-10.png)  
+물음표가 붙은 것은 요청하는 거.
+
+자세히 보면  
+  ![Alt text](./images/image-11.png)
+  
+  2계층 이더넷 encapsulation  
+
+  ![Alt text](./images/image-12.png)
