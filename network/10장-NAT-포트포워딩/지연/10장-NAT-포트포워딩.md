@@ -43,12 +43,14 @@ NAT을 이용하는 이유는 대개 사설 네트워크에 속한 여러개의 
 - 80으로 설정하는 게 편함.
 
 - 내부 IP 확인  
-  ![Alt text](image-5.png)
+   ![Alt text](image-5.png)
+  vmnet 8번
 
 - NAT 세팅
-  ![Alt text](image-6.png)
-  -> 호스트 포트로 들어오면
-  -> virtual machine ip address로 들어가라고 알려줌.  
-  ![Alt text](image-7.png)
+  - 포트 포워딩 설정
+    ![Alt text](image-6.png)
+    -> 호스트 포트로 들어오면
+    -> virtual machine ip address로 들어가라고 알려줌.  
+    ![Alt text](image-7.png)
 
 2. 사설 IP를 사용하는 서버로 접속해보기
