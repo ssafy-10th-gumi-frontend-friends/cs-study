@@ -10,7 +10,7 @@ NAT을 이용하는 이유는 대개 사설 네트워크에 속한 여러개의 
 
 하지만 꼭 사설 IP를 공인 IP로 변환하는 데에만 사용하는 기술은 아님.
 
-![Alt text](image.png)
+![Alt text](./images/image.png)
 
 - 바깥 세상에는 마치 공유기끼리 통신하는 것처럼 보임.
 
@@ -20,7 +20,7 @@ NAT을 이용하는 이유는 대개 사설 네트워크에 속한 여러개의 
 
 - 이 기법은 게이트웨이(외부망)의 반대쪽에 위치한 사설네트워크에 상주하는 호스트에 대한 서비스를 생성하기 위해 흔히 사용된다.
 
-![Alt text](image-1.png)
+![Alt text](./images/image-1.png)
 
 ### 절차
 
@@ -29,8 +29,8 @@ NAT을 이용하는 이유는 대개 사설 네트워크에 속한 여러개의 
    -> 특정 포트로 전송을 하면되는데, 목적지 IP는 공인 IP여야 함
 
 2. 공유기는, 특정 포트로 들어온 요청을 다른 특정 IP의 특정 포트로 전송
-   ![Alt text](image-2.png)  
-   ![Alt text](image-3.png)  
+   ![Alt text](./images/image-2.png)  
+   ![Alt text](./images/image-3.png)  
    대신 전달해줌
 
 ## 실습
@@ -39,16 +39,18 @@ NAT을 이용하는 이유는 대개 사설 네트워크에 속한 여러개의 
 
 - 다른 사용자들이 사설 IP를 사용하는 서버로 접속할 수 있도록 설정해보기
 - 공유기에 접속해서 admin으로 로그인하고 포트포워드 설정하기  
-  ![Alt text](image-4.png)
+  ![Alt text](./images/image-4.png)
 - 80으로 설정하는 게 편함.
 
 - 내부 IP 확인  
-  ![Alt text](image-5.png)
+   ![Alt text](./images/image-5.png)
+  vmnet 8번
 
 - NAT 세팅
-  ![Alt text](image-6.png)
-  -> 호스트 포트로 들어오면
-  -> virtual machine ip address로 들어가라고 알려줌.  
-  ![Alt text](image-7.png)
+  - 포트 포워딩 설정
+    ![Alt text](./images/image-6.png)
+    -> 호스트 포트로 들어오면
+    -> virtual machine ip address로 들어가라고 알려줌.  
+    ![Alt text](./images/image-7.png)
 
 2. 사설 IP를 사용하는 서버로 접속해보기
